@@ -1,4 +1,4 @@
-import Logger, { helperLogger } from '../helpers/logger';
+import Logger, { helperLogger } from '@/logger.ts';
 
 const logger = new Logger();
 logger.log('This is client side');
